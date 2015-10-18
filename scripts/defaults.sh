@@ -22,7 +22,10 @@ echo "Disable the sudden motion sensor as it's not useful for SSDs"
 sudo pmset -a sms 0
 
 echo "Hide directories in $HOME"
-chflags hidden ~/VirtualBox ~/Library
+chflags hidden ~/VirtualBox
+
+echo "Allow to see ~/Library"
+chflags nohidden ~/Library
 
 
 # Kill affected applications
