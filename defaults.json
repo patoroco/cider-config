@@ -1,0 +1,53 @@
+{
+    "NSGlobalDomain": {
+        "AppleShowScrollBars": "WhenScrolling",
+        "NSDocumentSaveNewDocumentsToCloud": false,
+        "ApplePressAndHoldEnabled": true,
+        "AppleShowAllExtensions": true,
+        "WebKitDeveloperExtras": true,
+        "NSQuitAlwaysKeepsWindows": false,
+        "AppleKeyboardUIMode": true
+    },
+    "com.apple.SoftwareUpdate": {
+        "ScheduleFrequency": 1
+    },
+    "com.apple.screencapture": {
+        "type": "png"
+    },
+    "com.apple.finder": {
+        "NewWindowTarget": "PfDe",
+        "QLEnableTextSelection": true,
+        "FXDefaultSearchScope": "SCcf",
+        "FXEnableExtensionChangeWarning": false,
+        "FXPreferredViewStyle": "Nlsv",
+        "FK_AppCentricViewStyle": "clmv",
+        "FXArrangeGroupViewBy": "Name",
+        "FXPreferredGroupBy": "Name",
+        "ShowPathbar": true,
+        "QuitMenuItem": true
+    },
+    "defaults write com.apple.menuextra.battery": {
+        "ShowPercent": "YES",
+        "ShowTime": "NO"
+    },
+    "com.apple.Safari": {
+        "FindOnPageMatchesWordStartsOnly": false
+    },
+    "com.apple.SoftwareUpdate": {
+        "ScheduleFrequency": 1
+    },
+    "com.apple.desktopservices": {
+        "DSDontWriteNetworkStores": true
+    },
+    "com.apple.dock": {
+        "show-process-indicators": true
+    },
+    "com.apple.TextEdit": {
+        "RichText": 0,
+        "PlainTextEncoding": 4,
+        "PlainTextEncodingForWrite": 4
+    },
+    "com.apple.TimeMachine": {
+        "DoNotOfferNewDisksForBackup": true
+    }
+}

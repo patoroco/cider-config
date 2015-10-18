@@ -3,6 +3,7 @@ after-scripts:
 - sh ./scripts/pip.sh
 - sh ./scripts/gem.sh
 - sh ./scripts/chrome.sh
+- sh ./scripts/defaults.sh
 - sh ./scripts/last_adjusts.sh
 casks:
 - alfred
