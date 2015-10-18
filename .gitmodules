@@ -1,0 +1,42 @@
+[submodule "symlinks/.vim/bundle/vim-colors-solarized"]
+	path = symlinks/.vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "symlinks/.vim/bundle/syntastic"]
+	path = symlinks/.vim/bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
+[submodule "symlinks/.vim/bundle/vim-fugitive"]
+	path = symlinks/.vim/bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "symlinks/.vim/bundle/oh-my-zsh"]
+	path = symlinks/.vim/bundle/oh-my-zsh
+	url = git://github.com/robbyrussell/oh-my-zsh.git
+[submodule "symlinks/.vim/bundle/jedi-vim"]
+	path = symlinks/.vim/bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "symlinks/.vim/bundle/vim-go"]
+	path = symlinks/.vim/bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "symlinks/.vim/bundle/ctrlp.vim"]
+	path = symlinks/.vim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "symlinks/.vim/bundle/neocomplete.vim"]
+	path = symlinks/.vim/bundle/neocomplete.vim
+	url = https://github.com/Shougo/neocomplete.vim.git
+[submodule "symlinks/.vim/bundle/vim-multiple-cursors"]
+	path = symlinks/.vim/bundle/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "symlinks/.vim/bundle/vim-easymotion"]
+	path = symlinks/.vim/bundle/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git
+[submodule "symlinks/.vim/bundle/vim-airline"]
+	path = symlinks/.vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline
+[submodule "symlinks/.vim/bundle/supertab"]
+	path = symlinks/.vim/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "symlinks/.vim/bundle/rust.vim"]
+	path = symlinks/.vim/bundle/rust.vim
+	url = https://github.com/wting/rust.vim.git
+[submodule "symlinks/.vim/bundle/nerdcommenter"]
+	path = symlinks/.vim/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter
