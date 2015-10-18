@@ -19,7 +19,6 @@ casks:
 - sourcetree
 - java
 - genymotion
-- tunnelblick
 - heroku-toolbelt
 - spotify
 - transmission
