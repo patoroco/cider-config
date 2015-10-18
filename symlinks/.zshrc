@@ -2,10 +2,10 @@
 export PATH=/usr/local/bin:/usr/local/share/npm/bin:$DOTFILES/bin:/usr/texbin:$PATH
 
 # Shortcut to this dotfiles
-export DOTFILES=$HOME/.dotfiles
+export CIDER=$HOME/.cider
 
 # Path to your oh-my-zsh configuration.
-export ZSH=$DOTFILES/zsh/ohmyzsh.git
+export ZSH=$CIDER/zsh/oh-my-zsh.git
 
 # Company folder
 export COMPANY=~/Ticketea
@@ -15,7 +15,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # Set custom theme
-ZSH_CUSTOM=$DOTFILES/zsh/custom/
+ZSH_CUSTOM=$CIDER/zsh/custom/
 
 # Set name of the theme to load.
 ZSH_THEME="agnoster"
@@ -34,7 +34,7 @@ source $ZSH/oh-my-zsh.sh
 
 # All ZSH files inside dotfiles
 typeset -U config_files
-config_files=($DOTFILES/*/*.zsh)
+config_files=($CIDER/zsh/*.zsh)
 
 # Load config files
 for file in ${config_files}

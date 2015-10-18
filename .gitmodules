@@ -40,3 +40,6 @@
 [submodule "symlinks/.vim/bundle/nerdcommenter"]
 	path = symlinks/.vim/bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter
+[submodule "zsh/oh-my-zsh.git"]
+	path = zsh/oh-my-zsh.git
+	url = git@github.com:robbyrussell/oh-my-zsh.git
