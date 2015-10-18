@@ -1,9 +1,9 @@
 after-scripts:
 - brew linkapps
-- sh ./installations/pip.sh
-- sh ./installations/gem.sh
-- sh ./installations/chrome.sh
-- sh ./last_adjusts.sh
+- sh ./scripts/pip.sh
+- sh ./scripts/gem.sh
+- sh ./scripts/chrome.sh
+- sh ./scripts/last_adjusts.sh
 casks:
 - alfred
 - divvy
