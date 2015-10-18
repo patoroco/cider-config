@@ -28,6 +28,7 @@ casks:
 - rescuetime
 - skitch
 - base
+- mou
 - font-hack
 formulas:
 - git
