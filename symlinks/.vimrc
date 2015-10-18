@@ -26,14 +26,6 @@ let g:airline_powerline_fonts = 1
 " Golang
 let g:go_fmt_command = 'goimports'
 
-" Jedi
-let g:jedi#use_splits_not_buffers = 'left'
-let g:jedi#popup_select_first = 0
-let g:jedi#popup_on_dot = 0
-let g:jedi#auto_vim_configuration = 0
-let g:jedi#auto_initialization = 0
-
-
 " Multi-cursors
 let g:multi_cursor_start_key='<C-d>'
 let g:multi_cursor_next_key='<C-d>'
