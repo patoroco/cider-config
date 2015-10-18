@@ -27,6 +27,7 @@ casks:
 - coconutbattery
 - rescuetime
 - skitch
+- base
 - font-hack
 formulas:
 - git
@@ -34,6 +35,7 @@ formulas:
 - wget
 - tree
 - imagemagick
+- jpegoptim
 - vim --with-lua
 - go
 - npm
