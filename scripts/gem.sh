@@ -9,6 +9,7 @@ for gem in \
 	"cocoapods" \
 	"bundler" \
 	"bropages" \
+	"cloudapp_api" \
 	; do
 	echo "- "${gem}
 	gem install ${gem} > /dev/null # hide all stdout but show errors
