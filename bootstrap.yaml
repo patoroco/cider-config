@@ -1,0 +1,49 @@
+after-scripts:
+- brew linkapps
+- sh ./installations/pip.sh
+- sh ./installations/gem.sh
+- sh ./installations/chrome.sh
+- sh ./last_adjusts.sh
+casks:
+- alfred
+- divvy
+- dropbox
+- google-drive
+- google-hangouts
+- flash-player
+- iterm2
+- sublime-text
+- vagrant
+- virtualbox
+- sourcetree
+- java
+- genymotion
+- tunnelblick
+- heroku-toolbelt
+- spotify
+- transmission
+- jadengeller-helium
+- coconutbattery
+- rescuetime
+- skitch
+- font-hack
+formulas:
+- git
+- curl
+- wget
+- tree
+- imagemagick
+- vim --with-lua
+- go
+- npm
+- ruby
+- mysql
+- httpie
+- android-sdk
+- archey
+- jq
+symlinks:
+    '.*': '~'
+taps:
+- caskroom/cask
+- caskroom/fonts
