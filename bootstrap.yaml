@@ -7,28 +7,29 @@ after-scripts:
 - sh ./scripts/last_adjusts.sh
 casks:
 - alfred
+- base
+- coconutbattery
 - divvy
 - dropbox
+- flash-player
+- font-hack
+- genymotion
 - google-drive
 - google-hangouts
-- flash-player
-- iterm2
-- sublime-text
-- vagrant
-- virtualbox
-- sourcetree
-- java
-- genymotion
 - heroku-toolbelt
-- spotify
-- transmission
+- iterm2
 - jadengeller-helium
-- coconutbattery
+- java
+- mou
 - rescuetime
 - skitch
-- base
-- mou
-- font-hack
+- sourcetree
+- spotify
+- sublime-text
+- transmission
+- vagrant
+- virtualbox
+- vlc
 formulas:
 - git
 - curl
@@ -46,7 +47,7 @@ formulas:
 - archey
 - jq
 symlinks:
-    '.*': '~'
+    .*: '~'
 taps:
 - caskroom/cask
 - caskroom/fonts
