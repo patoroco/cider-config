@@ -68,5 +68,11 @@
     },
     "com.apple.NetworkBrowser": {
         "BrowseAllInterfaces": true
+    },
+    "com.apple.AppleMultitouchTrackpad": {
+        "Dragging": 1
+    },
+    "com.apple.driver.AppleBluetoothMultitouch.trackpad": {
+        "Dragging": 1
     }
 }
