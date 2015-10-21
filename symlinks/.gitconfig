@@ -25,16 +25,16 @@
     unassume = update-index --no-assume-unchanged
     assumed  = !git ls-files -v | grep ^h | cut -c 3-
 
-    credit   = !$HOME/.dotfiles/git/functions/git-credit
-    wtf      = !$HOME/.dotfiles/git/functions/git-wtf
-    rank     = !$HOME/.dotfiles/git/functions/git-rank-contributers
-    merged   = !$HOME/.dotfiles/git/functions/git-local-merged
-    rbpull   = !$HOME/.dotfiles/git/functions/git-reup
+    credit   = !$HOME/.cider/git/git-credit
+    wtf      = !$HOME/.cider/git/git-wtf
+    rank     = !$HOME/.cider/git/git-rank-contributers
+    merged   = !$HOME/.cider/git/git-local-merged
+    rbpull   = !$HOME/.cider/git/git-reup
 
     count    = shortlog -sn
     filelog  = log -u
-    ls       = !$HOME/.dotfiles/git/functions/git-ls
-    ll       = !$HOME/.dotfiles/git/functions/git-ll
+    ls       = !$HOME/.cider/git/git-ls
+    ll       = !$HOME/.cider/git/git-ll
 [color]
     ui     = true
     diff   = auto
