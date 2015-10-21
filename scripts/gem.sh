@@ -12,7 +12,7 @@ for gem in \
 	"cloudapp_api" \
 	; do
 	echo "- "${gem}
-	gem install ${gem} > /dev/null # hide all stdout but show errors
+	gem install ${gem} --no-rdoc > /dev/null # hide all stdout but show errors
 done
 
 exit 0
