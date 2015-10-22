@@ -26,7 +26,7 @@ casks:
 - skitch
 - sourcetree
 - spotify
-- sublime-text
+- sublime-text3
 - transmission
 - vagrant
 - virtualbox
@@ -51,4 +51,5 @@ symlinks:
     .*: '~'
 taps:
 - caskroom/cask
+- caskroom/versions
 - caskroom/fonts
