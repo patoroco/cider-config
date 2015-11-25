@@ -47,6 +47,7 @@ formulas:
 - android-sdk
 - archey
 - jq
+- swiftlint
 symlinks:
     .*: '~'
 taps:
