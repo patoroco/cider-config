@@ -33,3 +33,6 @@ alias s="cd $PROJECTS"
 
 # Fucking auto-complete :D
 alias knife="nocorrect knife"
+
+
+alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say DNS cache flushed"
