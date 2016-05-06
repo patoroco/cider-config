@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/patoroco/.cider/symlinks/.vim/bundle/airline.git'
 let g:netrw_dirhist_2='/Users/patoroco/.cider/.git'
+let g:netrw_dirhist_3='/Users/patoroco/Dev/Webs/hotelposadafuentescarrionas.com/scripts'
+let g:netrw_dirhist_4='/Users/patoroco/Dev/Webs/hotelposadafuentescarrionas.com/.git'
+let g:netrw_dirhist_5='/Users/patoroco/Ticketea/projects/ios-checkpoint/.bundle'
+let g:netrw_dirhist_6='/Users/patoroco/Ticketea/projects/ios-box-office/scripts'
