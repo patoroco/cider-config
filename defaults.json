@@ -74,5 +74,8 @@
     },
     "com.apple.driver.AppleBluetoothMultitouch.trackpad": {
         "Dragging": 1
+    },
+    "com.apple.dt.Xcode": {
+        "ShowBuildOperationDuration": true
     }
 }
