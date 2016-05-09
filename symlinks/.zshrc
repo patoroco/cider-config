@@ -27,7 +27,30 @@ DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
 
 # Plugins to load (custom plugins may be added to ~/.oh-my-zsh/custom/plugins/)
-plugins=(brew colored-man colorize fabric gitfast git-extras knife osx pip python vagrant virtualenvwrapper wd pod rvm bundler)
+BUNDLED_COMMANDS=(
+  fastlane
+  pod
+)
+plugins=(
+  brew
+  bundler
+  colorize
+  colored-man
+  gem
+  gitfast
+  git-extras
+  npm
+  pip
+  pod
+  python
+  rvm
+  screen
+  vagrant
+  virtualenvwrapper
+  wd
+  xcode
+  z
+)
 
 # Source oh-my-zsh
 source $ZSH/oh-my-zsh.sh
