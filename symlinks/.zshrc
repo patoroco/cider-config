@@ -83,3 +83,5 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 
 # `brew cask` will install for all users by default
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+alias sshtkt="ssh -i ~/.ssh/ticketea/devops.pem -l ubuntu"
