@@ -50,6 +50,7 @@ plugins=(
   wd
   xcode
   z
+  zsh-syntax-highlighting
 )
 
 # Source oh-my-zsh
