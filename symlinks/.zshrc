@@ -87,3 +87,4 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 alias sshtkt="ssh -i ~/.ssh/ticketea/devops.pem -l ubuntu"
 alias tailtkt='ssh vagrant "tail -f /var/log/ticketea/api/*.log"'
+alias sedtkt="sed 's/#012/\'$'\n/g'"
