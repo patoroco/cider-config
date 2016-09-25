@@ -1,6 +1,3 @@
-# Path
-export PATH=/usr/local/bin:/usr/local/share/npm/bin:$CIDER/bin:/usr/texbin:$PATH
-
 # Shortcut to this dotfiles
 export CIDER=$HOME/.cider
 
@@ -72,6 +69,9 @@ then
   source ~/.localrc
 fi
 
+
+# Path
+export PATH=/usr/local/bin:/usr/local/share/npm/bin:$CIDER/bin:/usr/texbin:$PATH
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export NVM_DIR="/Users/patoroco/.nvm"

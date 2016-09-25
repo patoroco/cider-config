@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Set badge for iTerm without need to load iterm2 utils
+
+printf "\e]1337;SetBadgeFormat=%s\a" $(echo $* | base64)
