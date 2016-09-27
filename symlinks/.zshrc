@@ -82,6 +82,8 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 # `brew cask` will install for all users by default
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
+export ANSIBLE_VAULT_PASSWORD_FILE=~/.ticketea_ansible_vault_pass
+
 alias sshtkt="ssh -i ~/.ssh/ticketea/devops.pem -l ubuntu"
 alias tailtkt='ssh vagrant "tail -f /var/log/ticketea/api/*.log"'
 alias sedtkt="sed 's/#012/\'$'\n/g'"
