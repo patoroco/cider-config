@@ -33,6 +33,7 @@ plugins=(
   bundler
   colorize
   colored-man
+  fabric
   gem
   gitfast
   git-extras
@@ -87,3 +88,5 @@ export ANSIBLE_VAULT_PASSWORD_FILE=~/.ticketea_ansible_vault_pass
 alias sshtkt="ssh -i ~/.ssh/ticketea/devops.pem -l ubuntu"
 alias tailtkt='ssh vagrant "tail -f /var/log/ticketea/api/*.log"'
 alias sedtkt="sed 's/#012/\'$'\n/g'"
+alias tktb64="pbpaste | base64 -D"
+
