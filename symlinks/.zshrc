@@ -29,7 +29,6 @@ BUNDLED_COMMANDS=(
   pod
 )
 plugins=(
-  brew
   bundler
   colorize
   colored-man
