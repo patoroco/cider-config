@@ -27,3 +27,7 @@ command -v cider > /dev/null || \
 
 
 cider restore
+
+
+# Stop Responding to Key Presses
+launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
