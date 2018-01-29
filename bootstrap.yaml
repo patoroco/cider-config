@@ -8,12 +8,14 @@ after-scripts:
 casks:
 - alfred
 - base
+- caffeine
 - coconutbattery
 - divvy
 - dropbox
 - fabric
 - flash-player
 - font-hack
+- font-inconsolata-for-powerline
 - genymotion
 - google-drive
 - google-hangouts
@@ -21,8 +23,11 @@ casks:
 - iterm2
 - jadengeller-helium
 - java
+- keeweb
 - mou
+- psequel
 - rescuetime
+- sequel-pro
 - skitch
 - sourcetree
 - spotify
@@ -32,22 +37,21 @@ casks:
 - virtualbox
 - vlc
 formulas:
-- git
+- archey
 - curl
-- wget
-- tree
+- git
+- go
+- httpie
 - imagemagick
 - jpegoptim
-- vim --with-lua
-- go
+- jq
+- mysql
 - npm
 - ruby
-- mysql
-- httpie
-- android-sdk
-- archey
-- jq
 - swiftlint
+- tree
+- vim --with-lua
+- wget
 - z
 symlinks:
     .*: '~'
