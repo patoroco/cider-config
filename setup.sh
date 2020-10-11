@@ -8,8 +8,6 @@ set -o pipefail
 command -v brew > /dev/null || \
 	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install homebrew/cask
-
 # Install rvm
 command -v rvm > /dev/null || (curl -sSL https://get.rvm.io | bash -s stable)
 
