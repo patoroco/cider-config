@@ -12,13 +12,11 @@ command -v brew > /dev/null || \
 command -v rvm > /dev/null || (curl -sSL https://get.rvm.io | bash -s stable)
 
 # Install pip using brew to don't need sudo to use pip install
-command -v pip > /dev/null || \
+command -v pip3 > /dev/null || \
 	brew install python
 
 command -v cider > /dev/null || \
-	(pip install cider && \
-	pip install click==4.1) # https://github.com/msanders/cider/pull/30
-
+	pip3 install cider
 
 # Test if .cider folder exists or download it from github
 [ -d ~/.cider ] || git clone git@github.com:patoroco/dotfiles.git ~/.cider
